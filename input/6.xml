@@ -1,0 +1,41 @@
+<source file="/home/wpc/Example/7.java" startline="1" endline="25">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+            ((ComponentUI) (uis.elementAt (0))).getAccessibleChildrenCount (a);
+            TestConstructor tc = new TestConstructor ("saaa");
+            HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+            g.fillOval (r.x, r.y, r.width - 1, r.height - 1);
+            assertEquals ("true", buildRule.getProject ().getProperty ("error"));
+            impl.addParameter (objectFlowState, parameter);
+            return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+        }
+    }
+    return wrappedTaglet;
+}
+</source>
+<source file="/home/wpc/Example/6.java" startline="1" endline="24">
+private Object wrapTaglet (Taglet taglet) {
+    coords [nc ++] = (x + ctrls [i + 0] * w + ctrls [i + 1] * aw);
+    dummyAction.removePropertyChangeListener (arg0);
+    HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+    int lineStart = startPosition [getLineNumber (pos) - FIRSTLINE];
+    return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+    throw new AssertionError ("Trees.getOriginalType() error!");
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    return wrappedTaglet;
+}
+</source>

@@ -1,0 +1,41 @@
+ulimit -s hard
+
+#! dir of the tool
+cd /home/wpc/CCAligner/
+
+rm -rf input/*
+rm -rf output/*
+# due to large num of files, 'rm -rf token/*' doesn't work
+cd token
+find ./ -type f -delete
+cd ..
+rm function.file > /dev/null 2> /dev/null
+rm tokenline_num > /dev/null 2> /dev/null
+# compile
+cd txl
+chmod +x *.x
+cd ..
+cd lexical
+make clean > /dev/null 2> /dev/null
+make > /dev/null 2> /dev/null
+cd ..
+
+
+# start timing
+date
+
+#! parser functions: ./extract 'txl' 'language' 'functions' 'source code' 'output' 'thread num'
+./extract ./txl java functions /home/wpc/Example ./input 8 > /dev/null 2> /dev/null
+#if c: ./extract ./txl c .. ; if c#:./extract ./txl cs ..
+
+#parser functions: ./parser 'result of last step' 'output' 'min clone size of code lines'
+./parser ./input ./ 6 > /dev/null 2> /dev/null
+
+#tokenize: ./tokenize 'function.file' 'token' 'output' 'thread num'
+./tokenize ./function.file ./token ./ 8 > /dev/null 2> /dev/null
+
+#detect: ./detect 'token files' 'Output' 'function_frag.file' 'window size of token' 'edit-dist' 'similarity'
+./detect ./token ./output ./function.file 6 1 0.6 
+
+# end timing
+date

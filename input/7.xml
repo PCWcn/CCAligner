@@ -1,0 +1,62 @@
+<source file="/home/wpc/Example/13.java" startline="1" endline="31">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        try {
+            assertEquals ("true", buildRule.getProject ().getProperty ("error"));
+            if (DEBUG) System.out.println ("reusing instance, object id : " + fStreamWriter);
+
+            String sTypeVS = (String) lst.getSelectedItem ();
+            block [block.length - 2] = (byte) (len>> 8);
+            dummyAction.removePropertyChangeListener (arg0);
+            column = (column / TabInc * TabInc) + TabInc;
+            impl.addParameter (objectFlowState, parameter);
+            ((ComponentUI) (uis.elementAt (0))).getAccessibleChildrenCount (a);
+            g.fillOval (r.x, r.y, r.width - 1, r.height - 1);
+            throw new AssertionError ("Trees.getOriginalType() error!");
+            int lineStart = startPosition [getLineNumber (pos) - FIRSTLINE];
+            return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+            StreamResult sr = new StreamResult ();
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    return wrappedTaglet;
+}
+</source>
+<source file="/home/wpc/Example/18.java" startline="1" endline="37">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    String sTypeVS = (String) lst.getSelectedItem ();
+    oidStore.put (s.getName (), s);
+    block [block.length - 2] = (byte) (len>> 8);
+    coords [nc ++] = (x + ctrls [i + 0] * w + ctrls [i + 1] * aw);
+    throw new UniqueFieldValueConstraintViolationException (classMetadata ().getName (), fieldMetadata ().getName ());
+    StreamResult sr = new StreamResult ();
+    assertEquals ("true", buildRule.getProject ().getProperty ("error"));
+    TestConstructor tc = new TestConstructor ("saaa");
+    return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+    org.omg.CORBA.StructMember [] _members0 = new org.omg.CORBA.StructMember [0];
+    int lineStart = startPosition [getLineNumber (pos) - FIRSTLINE];
+    dummyAction.removePropertyChangeListener (arg0);
+    factories.add (new PrintStreamProviderFactory (ps));
+    g.fillOval (r.x, r.y, r.width - 1, r.height - 1);
+    throw new AssertionError ("Trees.getOriginalType() error!");
+    if (DEBUG) System.out.println ("reusing instance, object id : " + fStreamWriter);
+
+    ((ComponentUI) (uis.elementAt (0))).getAccessibleChildrenCount (a);
+    column = (column / TabInc * TabInc) + TabInc;
+    HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+    return wrappedTaglet;
+}
+</source>

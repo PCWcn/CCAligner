@@ -1,0 +1,69 @@
+<source file="/home/wpc/Example/19.java" startline="1" endline="38">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        org.omg.CORBA.StructMember [] _members0 = new org.omg.CORBA.StructMember [0];
+        throw new UniqueFieldValueConstraintViolationException (classMetadata ().getName (), fieldMetadata ().getName ());
+        throw new AssertionError ("Trees.getOriginalType() error!");
+        impl.addParameter (objectFlowState, parameter);
+        coords [nc ++] = (x + ctrls [i + 0] * w + ctrls [i + 1] * aw);
+        TestConstructor tc = new TestConstructor ("saaa");
+        oidStore.put (s.getName (), s);
+        column = (column / TabInc * TabInc) + TabInc;
+        if (DEBUG) System.out.println ("reusing instance, object id : " + fStreamWriter);
+
+        HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+        factories.add (new PrintStreamProviderFactory (ps));
+        StreamResult sr = new StreamResult ();
+        int lineStart = startPosition [getLineNumber (pos) - FIRSTLINE];
+        return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+        String sTypeVS = (String) lst.getSelectedItem ();
+        g.fillOval (r.x, r.y, r.width - 1, r.height - 1);
+        block [block.length - 2] = (byte) (len>> 8);
+        assertEquals ("true", buildRule.getProject ().getProperty ("error"));
+        dummyAction.removePropertyChangeListener (arg0);
+        ((ComponentUI) (uis.elementAt (0))).getAccessibleChildrenCount (a);
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    return wrappedTaglet;
+}
+</source>
+<source file="/home/wpc/Example/5.java" startline="1" endline="23">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    coords [nc ++] = (x + ctrls [i + 0] * w + ctrls [i + 1] * aw);
+    block [block.length - 2] = (byte) (len>> 8);
+    return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+    throw new AssertionError ("Trees.getOriginalType() error!");
+    org.omg.CORBA.StructMember [] _members0 = new org.omg.CORBA.StructMember [0];
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    return wrappedTaglet;
+}
+</source>
+<source file="/home/wpc/Example/1.java" startline="1" endline="19">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+    return wrappedTaglet;
+}
+</source>

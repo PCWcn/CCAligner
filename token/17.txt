@@ -1,0 +1,13 @@
+PRIididLPididRPididop_assignidsemi
+IFLPidNE_OPNULRP
+TRYidop_assigniddotidLPNEWidLKRKidRBRPsemi
+idLPSTRING_LITERALcommaiddotidLPRPdotidLPSTRING_LITERALRPRPsemi
+LPLPidRPLPiddotidLPCONSTANTRPRPRPdotidLPidRPsemi
+ididop_assignNEWidLPSTRING_LITERALRPsemi
+RB
+CATCHLPididRPiddotiddotidLPSTRING_LITERALRPsemi
+iddotidLPRPsemi
+RB
+RB
+RETURNidsemi
+RB

@@ -1,0 +1,11 @@
+PRIididLPididRPididop_assignidsemi
+IFLPidNE_OPNULRP
+TRYidop_assigniddotidLPNEWidLKRKidRBRPsemi
+RB
+CATCHLPididRPiddotiddotidLPSTRING_LITERALRPsemi
+iddotidLPRPsemi
+RB
+RB
+idREFop_assigniddotidLPidcommaidcommaCONSTANTRPsemi
+RETURNidsemi
+RB

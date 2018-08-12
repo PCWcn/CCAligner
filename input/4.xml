@@ -1,0 +1,92 @@
+<source file="/home/wpc/Example/17.java" startline="1" endline="36">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    coords [nc ++] = (x + ctrls [i + 0] * w + ctrls [i + 1] * aw);
+    ((ComponentUI) (uis.elementAt (0))).getAccessibleChildrenCount (a);
+    HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+    StreamResult sr = new StreamResult ();
+    if (DEBUG) System.out.println ("reusing instance, object id : " + fStreamWriter);
+
+    org.omg.CORBA.StructMember [] _members0 = new org.omg.CORBA.StructMember [0];
+    return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+    throw new UniqueFieldValueConstraintViolationException (classMetadata ().getName (), fieldMetadata ().getName ());
+    assertEquals ("true", buildRule.getProject ().getProperty ("error"));
+    impl.addParameter (objectFlowState, parameter);
+    g.fillOval (r.x, r.y, r.width - 1, r.height - 1);
+    dummyAction.removePropertyChangeListener (arg0);
+    factories.add (new PrintStreamProviderFactory (ps));
+    String sTypeVS = (String) lst.getSelectedItem ();
+    oidStore.put (s.getName (), s);
+    throw new AssertionError ("Trees.getOriginalType() error!");
+    column = (column / TabInc * TabInc) + TabInc;
+    block [block.length - 2] = (byte) (len>> 8);
+    return wrappedTaglet;
+}
+</source>
+<source file="/home/wpc/Example/16.java" startline="1" endline="35">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    TestConstructor tc = new TestConstructor ("saaa");
+    block [block.length - 2] = (byte) (len>> 8);
+    throw new AssertionError ("Trees.getOriginalType() error!");
+    HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+    g.fillOval (r.x, r.y, r.width - 1, r.height - 1);
+    return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+    dummyAction.removePropertyChangeListener (arg0);
+    column = (column / TabInc * TabInc) + TabInc;
+    coords [nc ++] = (x + ctrls [i + 0] * w + ctrls [i + 1] * aw);
+    assertEquals ("true", buildRule.getProject ().getProperty ("error"));
+    oidStore.put (s.getName (), s);
+    String sTypeVS = (String) lst.getSelectedItem ();
+    org.omg.CORBA.StructMember [] _members0 = new org.omg.CORBA.StructMember [0];
+    int lineStart = startPosition [getLineNumber (pos) - FIRSTLINE];
+    StreamResult sr = new StreamResult ();
+    if (DEBUG) System.out.println ("reusing instance, object id : " + fStreamWriter);
+
+    factories.add (new PrintStreamProviderFactory (ps));
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    return wrappedTaglet;
+}
+</source>
+<source file="/home/wpc/Example/12.java" startline="1" endline="30">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    return wrappedTaglet;
+    dummyAction.removePropertyChangeListener (arg0);
+    HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+    g.fillOval (r.x, r.y, r.width - 1, r.height - 1);
+    if (DEBUG) System.out.println ("reusing instance, object id : " + fStreamWriter);
+
+    column = (column / TabInc * TabInc) + TabInc;
+    TestConstructor tc = new TestConstructor ("saaa");
+    throw new UniqueFieldValueConstraintViolationException (classMetadata ().getName (), fieldMetadata ().getName ());
+    block [block.length - 2] = (byte) (len>> 8);
+    oidStore.put (s.getName (), s);
+    throw new AssertionError ("Trees.getOriginalType() error!");
+    ((ComponentUI) (uis.elementAt (0))).getAccessibleChildrenCount (a);
+    int lineStart = startPosition [getLineNumber (pos) - FIRSTLINE];
+}
+</source>

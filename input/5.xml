@@ -1,0 +1,47 @@
+<source file="/home/wpc/Example/20.java" startline="1" endline="34">
+private Object wrapTaglet (Taglet taglet) {
+    Object wrappedTaglet = taglet;
+    return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+    block [block.length - 2] = (byte) (len>> 8);
+    oidStore.put (s.getName (), s);
+    coords [nc ++] = (x + ctrls [i + 0] * w + ctrls [i + 1] * aw);
+    g.fillOval (r.x, r.y, r.width - 1, r.height - 1);
+    factories.add (new PrintStreamProviderFactory (ps));
+    dummyAction.removePropertyChangeListener (arg0);
+    StreamResult sr = new StreamResult ();
+    HardObjectReference ref = HardObjectReference.peekPersisted (trans, id, 1);
+    throw new UniqueFieldValueConstraintViolationException (classMetadata ().getName (), fieldMetadata ().getName ());
+    impl.addParameter (objectFlowState, parameter);
+    int lineStart = startPosition [getLineNumber (pos) - FIRSTLINE];
+    String sTypeVS = (String) lst.getSelectedItem ();
+    ((ComponentUI) (uis.elementAt (0))).getAccessibleChildrenCount (a);
+    if (DEBUG) System.out.println ("reusing instance, object id : " + fStreamWriter);
+
+    throw new AssertionError ("Trees.getOriginalType() error!");
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    return wrappedTaglet;
+}
+</source>
+<source file="/home/wpc/Example/2.java" startline="1" endline="20">
+private Object wrapTaglet (Taglet taglet) {
+    return FunctionUtils.toDifferentiableUnivariateFunction (this).derivative ();
+    block [block.length - 2] = (byte) (len>> 8);
+    Object wrappedTaglet = taglet;
+    if (legacyTagletClassConstructor != null) {
+        try {
+            wrappedTaglet = legacyTagletClassConstructor.newInstance (new Object [] {taglet});
+        } catch (Exception e) {
+            System.err.println ("Wrapping of CATaglet failed.");
+            e.printStackTrace ();
+        }
+    }
+    return wrappedTaglet;
+}
+</source>
