@@ -35,7 +35,8 @@ date
 ./tokenize ./function.file ./token ./ 8 > /dev/null 2> /dev/null
 
 #detect: ./detect 'token files' 'Output' 'function_frag.file' 'window size of token' 'edit-dist' 'similarity'
-./detect ./token ./output ./function.file 6 1 0.6 
+./detect ./token ./output ./function.file 6 1 0.6 > /dev/null 2> /dev/null
+./co1 ./output ./ > /dev/null 2> /dev/null
 
 # end timing
 date
