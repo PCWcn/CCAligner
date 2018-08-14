@@ -29,7 +29,7 @@ date
 #if c: ./extract ./txl c .. ; if c#:./extract ./txl cs ..
 
 #parser functions: ./parser 'result of last step' 'output' 'min clone size of code lines'
-./parser ./input ./ 6 > /dev/null 2> /dev/null
+./parser ./input ./ 5 > /dev/null 2> /dev/null
 
 #tokenize: ./tokenize 'function.file' 'token' 'output' 'thread num'
 ./tokenize ./function.file ./token ./ 8 > /dev/null 2> /dev/null
