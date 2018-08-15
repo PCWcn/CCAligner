@@ -28,7 +28,6 @@ date
 ./extract ./txl java functions /home/wpc/Example ./input 8 > /dev/null 2> /dev/null
 #if c: ./extract ./txl c .. ; if c#:./extract ./txl cs ..
 
-#parser functions: ./parser 'result of last step' 'output' 'min clone size of code lines'
 ./parser ./input ./ 5 > /dev/null 2> /dev/null
 
 #tokenize: ./tokenize 'function.file' 'token' 'output' 'thread num'
