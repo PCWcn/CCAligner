@@ -11,6 +11,7 @@ find ./ -type f -delete
 cd ..
 rm function.file > /dev/null 2> /dev/null
 rm tokenline_num > /dev/null 2> /dev/null
+rm clones > /dev/null 2> /dev/null 
 # compile
 cd txl
 chmod +x *.x
