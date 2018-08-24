@@ -11,4 +11,4 @@ In this runner file, source files input:/home/wpc/Example
 
 ./detect: no filter, complete performance；
 
-./detect2: With filter, for a pair of code, filter minSizeCode1 < 0.5 maxSizeCode2, so faster than ./detect
+./detect2: with filter, for a pair of code, filter minSizeCode1 < 0.5 maxSizeCode2, so faster than ./detect
