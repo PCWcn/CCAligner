@@ -7,7 +7,7 @@ Need to install g++, flex and libboost before running.
 
 Conduct ./runner to run the tool.
 
-In this runner file, source files input:/home/wpc/Example
+For example, in this runner file, source files input:/home/wpc/Example
 
 ./detect: no filter, complete performance；
 
